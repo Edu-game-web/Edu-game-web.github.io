@@ -109,7 +109,8 @@ li a:hover {
 
 /* Section 1 */
 section{
-    height: 100vh;
+    height: auto;
+    width: auto;
     display: grid;
     background: var(--primary-dark); 
 }
@@ -169,7 +170,7 @@ section{
 
 
 .images {
-    margin-left: auto;
+    margin:auto;
     width: 300px;
 }   
 .images img {
@@ -282,49 +283,6 @@ a{
 }
 
 @media screen and (max-width:600px) {
-    body {
-        height: auto;
-    }
-    header {
-        height: auto;
-        background-color: var(--primary-dark);
-    }
-
-    ul {
-        background: var(--primary-dark);
-        width: 100%;
-        height: 100vh;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        top: 3.4rem;
-        left: -100%;
-        z-index: 111111;
-    }
-
-    .menu {
-        display: block;
-        font-size: 1.5rem;
-        font-weight: bold;
-        color: #244D61;
-    }
-
-    #click:checked~ul {
-        left: 0%;
-        transition: all 0.3s ease;
-    }
-    .images {
-        width: 100%;
-        margin: auto;
-    }
-
-    .main {
-        margin-top: 2rem;
-    }
-}
-
-@media screen and (max-width:576px) {
     body {
         height: auto;
     }
