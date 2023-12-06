@@ -29,12 +29,12 @@ body {
 }
 /* Nav */
 header {
+    display: grid;
     background: var(--primary-dark);
     position: relative;
     box-shadow: 0 4px 17px rgba(14, 1, 1, 0.227);
     position: sticky;
     top: 0;
-    right:0;
     z-index: 1;
    
 }
