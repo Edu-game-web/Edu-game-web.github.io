@@ -34,8 +34,9 @@ header {
     box-shadow: 0 4px 17px rgba(14, 1, 1, 0.227);
     position: sticky;
     top: 0;
+    right:0;
     z-index: 1;
-    margin: auto;
+   
 }
 
 .page-header {
@@ -110,8 +111,7 @@ li a:hover {
 
 /* Section 1 */
 section{
-    height: auto;
-    width: auto;
+    height: 100vh;
     display: grid;
     background: var(--primary-dark); 
 }
