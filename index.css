@@ -110,7 +110,8 @@ li a:hover {
 
 /* Section 1 */
 section{
-    
+    height: auto;
+    width: auto;
     display: grid;
     background: var(--primary-dark); 
 }
