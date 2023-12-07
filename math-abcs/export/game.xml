@@ -1,0 +1,13 @@
+
+                <game>
+                    <path>./math-abcs.p8.png</path>
+                    <name>Math ABC's</name>
+                    <image>./math-abcs.p8.png</image>
+                    <players>1</players>
+                    <desc>
+                        Description: Test your math knowledge!
+                        Controls: * Up Arrow Key / Down Arrow Key - navigate menu
+* X - choose answer
+                    </desc>
+                </game>
+            
